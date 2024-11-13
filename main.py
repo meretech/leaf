@@ -14,7 +14,7 @@ from kivy.config import Config
 from kivy.graphics.texture import Texture
 from PIL import Image as PILImage
 from datetime import datetime
-from database.db_connection import create_connection 
+from db_connection import create_connection 
 from kivy.lang import Builder
 from kivy.uix.floatlayout import FloatLayout
 from datetime import datetime
